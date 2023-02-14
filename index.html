@@ -91,6 +91,51 @@ larm();
 
 //eofiefjeifeijfijeifjeifjeifjefjeifjeijeifjeifjiefjeijefje
 
+
+// Дз на тему объекты!
+
+let ob = {
+    name: 'Mohmad',
+    surname: 'Dakaev',
+    age: 23,
+    height: 173 +'sm',
+    password: 3129,
+    login: 'Molodoy',
+    cash: 1000+'$'
+}
+ob.adress = "Pushkina"
+console.log(ob)
+
+let f = "adad"
+if(f !== ob.password){
+    alert('Указанный пароль не верен'+f)
+} else{
+    alert('Добро пожаловать'+ ob.name, ob.surname,'.','Ваш',+ ob.login)
+}
+
+// Дз на тему массивы!
+
+let arr = ['lorem', 123, true, 'ipsum'];
+console.log(arr[0],arr[3]);
+
+let emm = [];
+emm.push(123,true,false,'fefe','ggrg')
+console.log(emm)
+
+arr.unshift(333,222,111)
+console.log(arr)
+
+arr.shift()
+arr.pop()
+arr.pop()
+console.log(arr)
+
+let arr2 = [1,3,5,7,9]
+arr2.forEach(el => console.log(el *2))
+
+arr2.splice(1,3)
+console.log(arr2)
+
 </script>
 
 
